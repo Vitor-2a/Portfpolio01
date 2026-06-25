@@ -1,28 +1,82 @@
+@media screen (min-width:768px){
+    body{
+        background-attachment: fixed;
+    }
+}
+
 *{
     padding: 0;
     margin: 0;
     
 }
-body{
-    background-color: beige;
-    font-family: Arial, sans-serif;
-}
+
+
 header{
-    background-color: rgb(25, 9, 170);
-    display: flex;
-    gap: 300px;
-    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 170), rgb(0, 0, 117));
     color: white;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: solid, 2px, black;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+h1{
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    margin-left: 15px;
+    transition-duration: 0.01s;
+    font-size: 1.5em;
+}
+
+a:hover{
+    background-color: #7cdaf9 ;
+    border-radius: 6px;
+    color: white;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 2em;
 
 }
 
+img{
+    border:  solid, #004173;
+    height: 250px;
+    width: 250px;
+}
 .vitor{
-    text-align: right;
+   text-align: center;
+   border-radius: 30px;
+   
+}
+
+#Habilidades{
+    background-color: #004173;
+    border: solid, black;
+    border-radius: 15px;
+}
+
+#Projetos{
+    background-color: #004173;
+    border: solid, black;
     display: flex;
 }
 
-nav{
-    background-color: white;
-    text-align: justify;
-    gap: 100px;
+#Contato{
+    background-color: #004173;
+    text-align: center;
+}
+.footer{
+    color: black;
+    text-align: center;
+
 }
